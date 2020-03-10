@@ -1,0 +1,5 @@
+defaults:
+  mongoUrl:
+
+production:
+  mongoUrl: process.env.MONGO_URL
