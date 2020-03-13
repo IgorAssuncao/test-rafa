@@ -4,7 +4,6 @@ const TeamsController = require('../controllers/teams-controller');
 
 const routes = Router();
 
-routes.get('/', TeamsController.getAll);
-routes.post('/', TeamsController.create);
+routes.post('/', TeamsController.store);
 
 module.exports = routes;
