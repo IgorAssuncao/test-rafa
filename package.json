@@ -29,7 +29,7 @@
   "dependencies": {
     "env-o-loader": "^1.0.7",
     "express": "^4.17.1",
-    "mongoose": "^5.9.3",
+    "mongoose": "^5.13.15",
     "yup": "^0.28.3"
   }
 }
